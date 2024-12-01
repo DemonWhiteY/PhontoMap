@@ -1,0 +1,203 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/gtest_maind.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"cxx_library_with_type",
+			"cxx_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"dependences/gtest/cmake/internal_utils.cmake",
+			"dependences/gtest/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 46,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"fragment" : "-GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1 "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/source-charset:utf-8"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/std:c++latest"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/Os"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/glad/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/glfw3/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/imgui/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/glm"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/stb_image/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/gtest/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/gtest"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@3d994f3c13b3e6b0a6ad"
+		}
+	],
+	"id" : "gtest_main::@3d994f3c13b3e6b0a6ad",
+	"name" : "gtest_main",
+	"nameOnDisk" : "gtest_maind.lib",
+	"paths" : 
+	{
+		"build" : "dependences/gtest",
+		"source" : "dependences/gtest"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "dependences/gtest/src/gtest_main.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

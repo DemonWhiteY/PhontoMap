@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/example/CMakeFiles/RenderExample.dir/embed.manifest"

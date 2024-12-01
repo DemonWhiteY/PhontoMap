@@ -1,0 +1,253 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "NRenderer.exe"
+		},
+		{
+			"path" : "NRenderer.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/source-charset:utf-8"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/std:c++latest"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "/Os"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/glad/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/glfw3/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/imgui/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/glm"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/dependences/stb_image/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "E:/Lab/\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66/nrenderer-master/code/./app/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "NRServer::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "NRApp::@5f5a17c01335469806cb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glad::@e2643cb27bb33766265a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@109cd3ff770a3de14f50"
+		}
+	],
+	"id" : "NRenderer::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "app\\NRApp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "dependences\\glad\\glad.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Lab\\\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66\\nrenderer-master\\code\\dependences\\glfw3\\lib\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "dependences\\imgui\\imgui.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "NRServer.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "NRenderer",
+	"nameOnDisk" : "NRenderer.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
