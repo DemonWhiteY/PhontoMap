@@ -1,9 +1,10 @@
-#pragma once
+﻿#pragma once
 #ifndef __SHADER_CREATOR_HPP__
 #define __SHADER_CREATOR_HPP__
 
 #include "Shader.hpp"
 #include "Lambertian.hpp"
+#include"Conductor.hpp"
 
 namespace SimplePathTracer
 {
@@ -18,6 +19,9 @@ namespace SimplePathTracer
             case 0:
                 shader = make_shared<Lambertian>(material, t);
                 break;
+            case 1:
+                shader = make_shared<Conductor>(material, t);
+                    break;
             default:
                 shader = make_shared<Lambertian>(material, t);
                 break;

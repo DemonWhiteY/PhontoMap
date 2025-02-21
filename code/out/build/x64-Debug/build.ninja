@@ -761,66 +761,129 @@ build components\rebuild_cache: phony components\CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target RenderExample
+# Object build statements for SHARED_LIBRARY target PhotonMap
 
 
 #############################################
-# Order-only phony target for RenderExample
+# Order-only phony target for PhotonMap
 
-build cmake_object_order_depends_target_RenderExample: phony || cmake_object_order_depends_target_NRServer
+build cmake_object_order_depends_target_PhotonMap: phony || cmake_object_order_depends_target_NRServer
 
-build components\example\CMakeFiles\RenderExample.dir\src\Adapter.cpp.obj: CXX_COMPILER__RenderExample_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\example\src\Adapter.cpp || cmake_object_order_depends_target_RenderExample
-  DEFINES = -DRenderExample_EXPORTS
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\Adapter.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\Adapter.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
-  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\example\.\include
-  OBJECT_DIR = components\example\CMakeFiles\RenderExample.dir
-  OBJECT_FILE_DIR = components\example\CMakeFiles\RenderExample.dir\src
-  TARGET_COMPILE_PDB = components\example\CMakeFiles\RenderExample.dir\
-  TARGET_PDB = components\RenderExample.pdb
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\KdTree.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\KdTree.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\PhotonMap.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\PhotonMap.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\VertexTransformer.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\VertexTransformer.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\intersections\intersections.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\intersections\intersections.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\intersections
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders\Conductor.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\shaders\Conductor.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders\Dielectric.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\shaders\Dielectric.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
+
+build components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders\Lambertian.cpp.obj: CXX_COMPILER__PhotonMap_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\src\shaders\Lambertian.cpp || cmake_object_order_depends_target_PhotonMap
+  DEFINES = -DPhotonMap_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\.\include
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
+  OBJECT_FILE_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_PDB = components\PhotonMap.pdb
 
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target RenderExample
+# Link build statements for SHARED_LIBRARY target PhotonMap
 
 
 #############################################
-# Link the shared library components\RenderExample.dll
+# Link the shared library components\PhotonMap.dll
 
-build components\RenderExample.dll components\example\RenderExample.lib: CXX_SHARED_LIBRARY_LINKER__RenderExample_Debug components\example\CMakeFiles\RenderExample.dir\src\Adapter.cpp.obj | NRServer.lib || NRServer.dll
+build components\PhotonMap.dll components\simple_photon_map\PhotonMap.lib: CXX_SHARED_LIBRARY_LINKER__PhotonMap_Debug components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\Adapter.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\KdTree.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\PhotonMap.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\VertexTransformer.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\intersections\intersections.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders\Conductor.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders\Dielectric.cpp.obj components\simple_photon_map\CMakeFiles\PhotonMap.dir\src\shaders\Lambertian.cpp.obj | NRServer.lib || NRServer.dll
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
   LINK_LIBRARIES = NRServer.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = components\example\CMakeFiles\RenderExample.dir
+  OBJECT_DIR = components\simple_photon_map\CMakeFiles\PhotonMap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   RESTAT = 1
-  TARGET_COMPILE_PDB = components\example\CMakeFiles\RenderExample.dir\
-  TARGET_FILE = components\RenderExample.dll
-  TARGET_IMPLIB = components\example\RenderExample.lib
-  TARGET_PDB = components\RenderExample.pdb
+  TARGET_COMPILE_PDB = components\simple_photon_map\CMakeFiles\PhotonMap.dir\
+  TARGET_FILE = components\PhotonMap.dll
+  TARGET_IMPLIB = components\simple_photon_map\PhotonMap.lib
+  TARGET_PDB = components\PhotonMap.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
-build components\example\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Lab\计算机图形学\nrenderer-master\code\out\build\x64-Debug\components\example && "D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build components\simple_photon_map\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Lab\计算机图形学\nrenderer-master\code\out\build\x64-Debug\components\simple_photon_map && "D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build components\example\edit_cache: phony components\example\CMakeFiles\edit_cache.util
+build components\simple_photon_map\edit_cache: phony components\simple_photon_map\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build components\example\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Lab\计算机图形学\nrenderer-master\code\out\build\x64-Debug\components\example && "D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SE:\Lab\计算机图形学\nrenderer-master\code -BE:\Lab\计算机图形学\nrenderer-master\code\out\build\x64-Debug"
+build components\simple_photon_map\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Lab\计算机图形学\nrenderer-master\code\out\build\x64-Debug\components\simple_photon_map && "D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SE:\Lab\计算机图形学\nrenderer-master\code -BE:\Lab\计算机图形学\nrenderer-master\code\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build components\example\rebuild_cache: phony components\example\CMakeFiles\rebuild_cache.util
+build components\simple_photon_map\rebuild_cache: phony components\simple_photon_map\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -837,6 +900,15 @@ build components\example\rebuild_cache: phony components\example\CMakeFiles\rebu
 build cmake_object_order_depends_target_SimplePathTracing: phony || cmake_object_order_depends_target_NRServer
 
 build components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\Adapter.cpp.obj: CXX_COMPILER__SimplePathTracing_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\src\Adapter.cpp || cmake_object_order_depends_target_SimplePathTracing
+  DEFINES = -DSimplePathTracing_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\.\include
+  OBJECT_DIR = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir
+  OBJECT_FILE_DIR = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src
+  TARGET_COMPILE_PDB = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\
+  TARGET_PDB = components\SimplePathTracing.pdb
+
+build components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\BVH.cpp.obj: CXX_COMPILER__SimplePathTracing_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\src\BVH.cpp || cmake_object_order_depends_target_SimplePathTracing
   DEFINES = -DSimplePathTracing_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
   INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\.\include
@@ -872,6 +944,15 @@ build components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\inters
   TARGET_COMPILE_PDB = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\
   TARGET_PDB = components\SimplePathTracing.pdb
 
+build components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shaders\Conductor.cpp.obj: CXX_COMPILER__SimplePathTracing_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\src\shaders\Conductor.cpp || cmake_object_order_depends_target_SimplePathTracing
+  DEFINES = -DSimplePathTracing_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
+  INCLUDES = -IE:\Lab\计算机图形学\nrenderer-master\code\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glfw3\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\include -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\glm -IE:\Lab\计算机图形学\nrenderer-master\code\dependences\stb_image\include -IE:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\.\include
+  OBJECT_DIR = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir
+  OBJECT_FILE_DIR = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shaders
+  TARGET_COMPILE_PDB = components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\
+  TARGET_PDB = components\SimplePathTracing.pdb
+
 build components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shaders\Lambertian.cpp.obj: CXX_COMPILER__SimplePathTracing_unscanned_Debug E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\src\shaders\Lambertian.cpp || cmake_object_order_depends_target_SimplePathTracing
   DEFINES = -DSimplePathTracing_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /source-charset:utf-8 /std:c++latest /Os
@@ -889,7 +970,7 @@ build components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shader
 #############################################
 # Link the shared library components\SimplePathTracing.dll
 
-build components\SimplePathTracing.dll components\simple_path_tracing\SimplePathTracing.lib: CXX_SHARED_LIBRARY_LINKER__SimplePathTracing_Debug components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\Adapter.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\SimplePathTracer.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\VertexTransformer.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\intersections\intersections.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shaders\Lambertian.cpp.obj | NRServer.lib || NRServer.dll
+build components\SimplePathTracing.dll components\simple_path_tracing\SimplePathTracing.lib: CXX_SHARED_LIBRARY_LINKER__SimplePathTracing_Debug components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\Adapter.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\BVH.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\SimplePathTracer.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\VertexTransformer.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\intersections\intersections.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shaders\Conductor.cpp.obj components\simple_path_tracing\CMakeFiles\SimplePathTracing.dir\src\shaders\Lambertian.cpp.obj | NRServer.lib || NRServer.dll
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL
   LINK_LIBRARIES = NRServer.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -1052,13 +1133,13 @@ build NR_GTest.exe: phony test\NR_GTest.exe
 
 build NRenderer: phony NRenderer.exe
 
+build PhotonMap: phony components\PhotonMap.dll
+
+build PhotonMap.dll: phony components\PhotonMap.dll
+
 build RayCast: phony components\RayCast.dll
 
 build RayCast.dll: phony components\RayCast.dll
-
-build RenderExample: phony components\RenderExample.dll
-
-build RenderExample.dll: phony components\RenderExample.dll
 
 build SimplePathTracing: phony components\SimplePathTracing.dll
 
@@ -1102,14 +1183,7 @@ build app\all: phony app\NRApp.lib
 #############################################
 # Folder: E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components
 
-build components\all: phony components\example\all components\simple_path_tracing\all components\ray_cast\all
-
-# =============================================================================
-
-#############################################
-# Folder: E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/example
-
-build components\example\all: phony components\RenderExample.dll
+build components\all: phony components\simple_photon_map\all components\simple_path_tracing\all components\ray_cast\all
 
 # =============================================================================
 
@@ -1124,6 +1198,13 @@ build components\ray_cast\all: phony components\RayCast.dll
 # Folder: E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_path_tracing
 
 build components\simple_path_tracing\all: phony components\SimplePathTracing.dll
+
+# =============================================================================
+
+#############################################
+# Folder: E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_photon_map
+
+build components\simple_photon_map\all: phony components\PhotonMap.dll
 
 # =============================================================================
 
@@ -1160,14 +1241,14 @@ build test\all: phony test\NR_GTest.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake E$:\Lab\计算机图形学\nrenderer-master\code\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\app\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\example\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\ray_cast\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\cmake\internal_utils.cmake E$:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\test\CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake E$:\Lab\计算机图形学\nrenderer-master\code\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\app\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\ray_cast\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\cmake\internal_utils.cmake E$:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\test\CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake E$:\Lab\计算机图形学\nrenderer-master\code\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\app\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\example\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\ray_cast\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\cmake\internal_utils.cmake E$:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\test\CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FindThreads.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake D$:\Visual$ Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake E$:\Lab\计算机图形学\nrenderer-master\code\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\app\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\ray_cast\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_path_tracing\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\components\simple_photon_map\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\glad\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\dependences\gtest\cmake\internal_utils.cmake E$:\Lab\计算机图形学\nrenderer-master\code\dependences\imgui\CMakeLists.txt E$:\Lab\计算机图形学\nrenderer-master\code\test\CMakeLists.txt: phony
 
 
 #############################################

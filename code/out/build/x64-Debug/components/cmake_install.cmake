@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/example/cmake_install.cmake")
+  include("E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_photon_map/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

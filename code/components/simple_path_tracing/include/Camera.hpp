@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #ifndef __CAMERA_HPP__
 #define __CAMERA_HPP__
 

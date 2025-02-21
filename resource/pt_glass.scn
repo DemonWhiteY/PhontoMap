@@ -18,6 +18,10 @@ Material Glass 2
 Prop absorbed RGB 1 1 1 
 Prop ior Float 1.5
 
+Material Mirror 1
+
+Prop reflection RGB 1 1 1        
+
 End
 
 Begin Model

@@ -172,7 +172,7 @@ rule CXX_EXECUTABLE_LINKER__NR_GTest_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__RenderExample_unscanned_Debug
+rule CXX_COMPILER__PhotonMap_unscanned_Debug
   deps = msvc
   command = ${LAUNCHER}${CODE_CHECK}D:\VISUAL~2\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\cl.exe  /nologo /TP $DEFINES $INCLUDES $FLAGS /showIncludes /Fo$out /Fd$TARGET_COMPILE_PDB /FS -c $in
   description = Building CXX object $out
@@ -181,7 +181,7 @@ rule CXX_COMPILER__RenderExample_unscanned_Debug
 #############################################
 # Rule for linking CXX shared library.
 
-rule CXX_SHARED_LIBRARY_LINKER__RenderExample_Debug
+rule CXX_SHARED_LIBRARY_LINKER__PhotonMap_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_dll --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- D:\VISUAL~2\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT

@@ -152,7 +152,7 @@ namespace SimplePathTracer
              * pdf          - p(w)
              **/
             L_irdir = next * n_dot_in * attenuation / pdf;
-            return L_dir+L_irdir;
+            return L_irdir;
            ;
         }
         // 

@@ -20,9 +20,9 @@ E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/test/CMakeFi
 E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/test/CMakeFiles/rebuild_cache.dir
 E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/CMakeFiles/edit_cache.dir
 E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/CMakeFiles/rebuild_cache.dir
-E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/example/CMakeFiles/RenderExample.dir
-E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/example/CMakeFiles/edit_cache.dir
-E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/example/CMakeFiles/rebuild_cache.dir
+E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_photon_map/CMakeFiles/PhotonMap.dir
+E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_photon_map/CMakeFiles/edit_cache.dir
+E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_photon_map/CMakeFiles/rebuild_cache.dir
 E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_path_tracing/CMakeFiles/SimplePathTracing.dir
 E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_path_tracing/CMakeFiles/edit_cache.dir
 E:/Lab/计算机图形学/nrenderer-master/code/out/build/x64-Debug/components/simple_path_tracing/CMakeFiles/rebuild_cache.dir

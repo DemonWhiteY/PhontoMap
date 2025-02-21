@@ -54,7 +54,7 @@ endif()
 file(GLOB_RECURSE SERVER_HEADER_FILES "${SERVER_HEADER_DIR}/*.h" "${SERVER_HEADER_DIR}/*.hpp")
 source_group("Header Files" FILES ${SERVER_HEADER_FILES})
 file(GLOB_RECURSE SERVER_SOURCE_FILES "${SERVER_SOURCE_DIR}/*.cpp")
-add_library(NRServer SHARED "${SERVER_SOURCE_FILES}" "${SERVER_HEADER_FILES}")
+add_library(NRServer SHARED "${SERVER_SOURCE_FILES}" "${SERVER_HEADER_FILES}" )
 
 # Src
 
@@ -68,7 +68,7 @@ add_subdirectory("${DEPENDENCES_DIR}/imgui")
 # Components
 
 # Main
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp )
 target_link_libraries(${PROJECT_NAME} NRApp)
 target_include_directories(${PROJECT_NAME} PRIVATE "./app/include")
 
